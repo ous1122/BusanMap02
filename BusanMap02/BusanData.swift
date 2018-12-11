@@ -11,12 +11,13 @@ import MapKit
 class BusanData: NSObject, MKAnnotation {
     var coordinate: CLLocationCoordinate2D
     var title: String?
-    var subTitle: String?
+    var subtitle: String?
     
-    init(coordinate: CLLocationCoordinate2D, title: String, subTitle: String) {
+    init(coordinate: CLLocationCoordinate2D, title: String, subtitle: String) {
         self.coordinate = coordinate
         self.title = title
-        self.subTitle = subTitle
+        self.subtitle = subtitle
     }
     
 }
+

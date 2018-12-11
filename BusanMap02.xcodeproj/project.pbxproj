@@ -13,6 +13,8 @@
 		E53F2C432188182900F2AB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E53F2C422188182900F2AB20 /* Assets.xcassets */; };
 		E53F2C462188182900F2AB20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53F2C442188182900F2AB20 /* LaunchScreen.storyboard */; };
 		E53F2C4E218821B400F2AB20 /* BusanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F2C4D218821B400F2AB20 /* BusanData.swift */; };
+		E58B371721BE41C600F24332 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = E58B371621BE41C500F24332 /* launch.png */; };
+		E5ACDDF721B64CA500C5E954 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = E5ACDDF621B64CA500C5E954 /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E53F2C452188182900F2AB20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E53F2C472188182900F2AB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E53F2C4D218821B400F2AB20 /* BusanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanData.swift; sourceTree = "<group>"; };
+		E58B371621BE41C500F24332 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		E5ACDDF621B64CA500C5E954 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		E53F2C3A2188181D00F2AB20 /* BusanMap02 */ = {
 			isa = PBXGroup;
 			children = (
+				E58B371621BE41C500F24332 /* launch.png */,
+				E5ACDDF621B64CA500C5E954 /* 0.png */,
 				E53F2C3B2188181D00F2AB20 /* AppDelegate.swift */,
 				E53F2C3D2188181D00F2AB20 /* ViewController.swift */,
 				E53F2C3F2188181D00F2AB20 /* Main.storyboard */,
@@ -125,6 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5ACDDF721B64CA500C5E954 /* 0.png in Resources */,
+				E58B371721BE41C600F24332 /* launch.png in Resources */,
 				E53F2C462188182900F2AB20 /* LaunchScreen.storyboard in Resources */,
 				E53F2C432188182900F2AB20 /* Assets.xcassets in Resources */,
 				E53F2C412188181D00F2AB20 /* Main.storyboard in Resources */,
@@ -286,14 +294,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQ37D35Z4Z;
 				INFOPLIST_FILE = BusanMap02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.BusanMap02";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,14 +315,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQ37D35Z4Z;
 				INFOPLIST_FILE = BusanMap02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-.BusanMap02";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
